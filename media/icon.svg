@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="24" fill="#23272F"/>
+  
+  <!-- React orbital rings -->
+  <g transform="translate(64 64)">
+    <ellipse transform="rotate(30)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+    <ellipse transform="rotate(-30)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+    <ellipse transform="rotate(90)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+  </g>
+
+  <!-- Code brackets -->
+  <g transform="translate(64 64) scale(0.8)">
+    <!-- Left bracket -->
+    <path d="M-25 -20 L-40 0 L-25 20" fill="none" stroke="#61DAFB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Right bracket -->
+    <path d="M25 -20 L40 0 L25 20" fill="none" stroke="#61DAFB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- React core -->
+  <circle cx="64" cy="64" r="10" fill="#61DAFB"/>
+</svg>

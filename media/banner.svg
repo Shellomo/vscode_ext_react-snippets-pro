@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320">
+  <!-- Background -->
+  <rect width="1280" height="320" fill="#1A1D21"/>
+  
+  <!-- React Logo -->
+  <g transform="translate(140 160) scale(0.9)">
+    <ellipse transform="rotate(30)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+    <ellipse transform="rotate(-30)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+    <ellipse transform="rotate(90)" rx="42" ry="16" fill="none" stroke="#61DAFB" stroke-width="4" opacity="0.7"/>
+    <circle cx="0" cy="0" r="10" fill="#61DAFB"/>
+  </g>
+
+  <!-- Main Text -->
+  <g font-family="Inter, -apple-system, system-ui, sans-serif">
+    <!-- Title -->
+    <text x="260" y="100" fill="#FFFFFF" font-size="48" font-weight="700">React Snippets Pro</text>
+    
+    <!-- Subtitle -->
+    <text x="260" y="140" fill="#8F9297" font-size="24">Modern snippet manager for VS Code</text>
+  </g>
+
+  <!-- Features List -->
+  <g font-family="Inter, -apple-system, system-ui, sans-serif" font-size="16" fill="#A0A0A0">
+    <text x="260" y="190">50+ Ready-to-Use Snippets</text>
+    <text x="260" y="220">Beautiful Snippet Browser</text>
+    <text x="260" y="250">Smart Search &amp; Quick Access</text>
+  </g>
+
+  <!-- Code Snippet -->
+  <g transform="translate(700 100)">
+    <text font-family="Monaco, Menlo, Consolas, monospace" font-size="16">
+      <!-- Line 1 -->
+      <tspan x="0" y="0">
+        <tspan fill="#C678DD">const</tspan>
+        <tspan fill="#E5C07B"> Button</tspan>
+        <tspan fill="#ABB2BF"> = </tspan>
+        <tspan fill="#ABB2BF">({</tspan>
+        <tspan fill="#E06C75"> children</tspan>
+        <tspan fill="#ABB2BF"> }) </tspan>
+        <tspan fill="#C678DD">=></tspan>
+        <tspan fill="#ABB2BF"> {</tspan>
+      </tspan>
+      
+      <!-- Line 2 -->
+      <tspan x="20" y="30">
+        <tspan fill="#C678DD">return</tspan>
+        <tspan fill="#ABB2BF">(</tspan>
+      </tspan>
+
+      <!-- Line 3 -->
+      <tspan x="40" y="60">
+        <tspan fill="#E5C07B">&lt;button</tspan>
+        <tspan fill="#D19A66"> className</tspan>
+        <tspan fill="#ABB2BF">=</tspan>
+        <tspan fill="#98C379">"btn primary"</tspan>
+        <tspan fill="#E5C07B">&gt;</tspan>
+      </tspan>
+
+      <!-- Line 4 -->
+      <tspan x="60" y="90">
+        <tspan fill="#ABB2BF">{children}</tspan>
+      </tspan>
+
+      <!-- Line 5 -->
+      <tspan x="40" y="120">
+        <tspan fill="#E5C07B">&lt;/button&gt;</tspan>
+      </tspan>
+
+      <!-- Line 6 -->
+      <tspan x="20" y="150">
+        <tspan fill="#ABB2BF">)</tspan>
+      </tspan>
+
+      <!-- Line 7 -->
+      <tspan x="0" y="180">
+        <tspan fill="#ABB2BF">}</tspan>
+      </tspan>
+    </text>
+  </g>
+</svg>
